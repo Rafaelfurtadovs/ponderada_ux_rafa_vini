@@ -1,3 +1,4 @@
+/* Estilização base para toda a página - centraliza o conteúdo e define a fonte */
 html, body {
     height: 100%;
     margin: 0;
@@ -9,6 +10,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Container principal que contém todos os elementos do formulário de login */
 .container {
     width: 320px;
     height: 500px;
@@ -18,6 +20,7 @@ html, body {
     align-items: center;
 }
 
+/* Estilização para os campos de entrada (email e senha) */
 .input-field {
     width: 288px;
     height: 50px;
@@ -31,6 +34,7 @@ html, body {
     outline: none;
 }
 
+/* Estilização para o botão de login */
 .login-btn {
     width: 118px;
     height: 42px;
@@ -44,6 +48,7 @@ html, body {
     cursor: pointer;
 }
 
+/* Estilização para o link "esqueci minha senha" */
 .forgot-password {
     color: #C81363;
     font-size: 14px;
@@ -52,6 +57,7 @@ html, body {
     cursor: pointer;
 }
 
+/* Container para o logo no topo da página */
 .logo-container {
     width: 100%;
     display: flex;
@@ -60,12 +66,14 @@ html, body {
     top: 20px;
 }
 
+/* Estilização para a imagem do logo */
 .logo {
     max-width: 288px;
     height: auto;
     object-fit: contain;
 }
 
+/* Estilização comum para os containers dos campos do formulário (email e senha) */
 .form-field {
     margin-bottom: 20px;
     width: 288px;
@@ -73,16 +81,19 @@ html, body {
     justify-content: center;
 }
 
+/* Posicionamento para o campo de entrada de email */
 .email-field {
     position: absolute;
     top: 226px;
 }
 
+/* Posicionamento para o campo de entrada de senha */
 .password-field {
     position: absolute;
     top: 300px;
 }
 
+/* Container para o link "esqueci minha senha" com posicionamento */
 .forgot-container {
     position: absolute;
     top: 358px;
@@ -92,6 +103,7 @@ html, body {
     padding-left: 16px;
 }
 
+/* Container para o botão de login com posicionamento */
 .button-container {
     position: absolute;
     top: 390px;
