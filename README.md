@@ -1,1 +1,0 @@
-# ponderada_ux_rafa_vini
